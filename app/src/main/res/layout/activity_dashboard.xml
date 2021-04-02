@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#fece2f">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Star Tune"
+                android:textSize="30sp"
+                android:fontFamily="@font/bree_serif"
+                android:textColor="#000"
+                android:textAllCaps="true"
+                android:padding="10dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="#f08080">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/baloo"
+                    android:padding="25dp"
+                    android:text="Top Hits"
+                    android:textColor="#000"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/b1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="#f08080"
+                    android:textColor="#000"
+                    android:padding="20dp"
+                    android:text="Click Here"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/baloo"/>
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/jazz"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#000"
+            android:layout_margin="20dp"
+            app:cardElevation="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#9370db">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/blues" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/baloo"
+                    android:padding="25dp"
+                    android:text="Pop"
+                    android:textColor="#000"
+                    android:layout_alignParentRight="true"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/b2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:background="#9370db"
+                    android:padding="20dp"
+                    android:text="Click Here"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/baloo"
+                    android:textColor="#000" />
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#cd853f"
+                android:layout_margin="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/baloo"
+                    android:padding="25dp"
+                    android:text="Dj Remix"
+                    android:textAllCaps="false"
+                    android:textColor="#000"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/b3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Click Here"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/baloo"
+                    android:background="#cd853f"
+                    android:textColor="#000"
+                    android:padding="20dp"
+                    android:layout_alignParentBottom="true"/>
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/rnb"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#000"
+            android:layout_margin="20dp"
+            app:cardElevation="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#ff6347">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/punk" />
+
+                <TextView
+                    android:id="@+id/RnB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/baloo"
+                    android:padding="25dp"
+                    android:text="Dangdut"
+                    android:textColor="#000"
+                    android:layout_alignParentRight="true"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/b4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:background="#ff6347"
+                    android:padding="20dp"
+                    android:text="Click Here"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/baloo"
+                    android:textColor="#000" />
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+            <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#808080"
+                android:layout_margin="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Reggae"
+                    android:textSize="30sp"
+                    android:textColor="#000"
+                    android:fontFamily="@font/baloo"
+                    android:padding="25dp"/>
+
+                <Button
+                    android:id="@+id/b5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Click Here"
+                    android:textSize="16sp"
+                    android:textColor="#000"
+                    android:fontFamily="@font/baloo"
+                    android:background="#808080"
+                    android:padding="20dp"
+                    android:layout_alignParentBottom="true"/>
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/country"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#000"
+            android:layout_margin="20dp"
+            app:cardElevation="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#9acd32">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/pop" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/baloo"
+                    android:padding="25dp"
+                    android:text="Rock"
+                    android:textColor="#000"
+                    android:layout_alignParentRight="true"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/b6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:background="#9acd32"
+                    android:padding="20dp"
+                    android:text="Click Here"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/baloo"
+                    android:textColor="#000" />
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
